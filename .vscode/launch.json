@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CurrencyExchangeServiceApplication",
+            "request": "launch",
+            "mainClass": "com.nihilo.microservices.currencyexchangeservice.CurrencyExchangeServiceApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-SpringCloudConfigServerApplication<spring-cloud-config-server>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
