@@ -1,16 +1,12 @@
 {
     "configurations": [
-    {
-        "type": "java",
-        "name": "Launch CurrencyExchangeServiceApplication8001",
-        "request": "launch",
-        "mainClass": "com.nihilo.microservices.currencyexchangeservice.CurrencyExchangeServiceApplication",
-        "projectName": "currency-exchange-service",
-        "vmArgs": "-Dserver.port=8001"
-    },
-    
-    
-    
+        {
+            "type": "java",
+            "name": "Launch CurrencyExchangeServiceApplication8001",
+            "request": "launch",
+            "mainClass": "com.nihilo.microservices.currencyexchangeservice.CurrencyExchangeServiceApplication",
+            "vmArgs": "-Dserver.port=8001"
+        },
         {
             "type": "java",
             "name": "Launch CurrencyExchangeServiceApplication",
@@ -46,6 +42,15 @@
             "console": "internalConsole",
             "mainClass": "com.nihilo.microservices.currencyexchangeservice.CurrencyExchangeServiceApplication",
             "projectName": "currency-exchange-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CurrencyExchangeServiceApplication",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.nihilo.microservices.currencyexchangeservice.CurrencyExchangeServiceApplication",
             "args": ""
         }
     ]
