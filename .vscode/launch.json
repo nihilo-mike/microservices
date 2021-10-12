@@ -52,6 +52,16 @@
             "console": "internalConsole",
             "mainClass": "com.nihilo.microservices.currencyexchangeservice.CurrencyExchangeServiceApplication",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CurrencyConversionServiceApplication<currency-conversion-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.nihilo.currencyconversionservice.CurrencyConversionServiceApplication",
+            "projectName": "currency-conversion-service",
+            "args": ""
         }
     ]
 }
