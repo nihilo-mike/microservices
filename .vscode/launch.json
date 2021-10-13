@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ApiGatewayApplication",
+            "request": "launch",
+            "mainClass": "com.nihilo.apigateway.ApiGatewayApplication",
+            "projectName": "api-gateway"
+        },
+        {
+            "type": "java",
             "name": "Launch NamingServerApplication",
             "request": "launch",
             "mainClass": "com.nihilo.namingserver.NamingServerApplication",
