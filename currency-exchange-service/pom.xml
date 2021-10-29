@@ -97,7 +97,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<version>2.5.6</version>
 				<configuration>
 					<excludes>
 						<exclude>
@@ -105,9 +104,16 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
-					<image>
-						<name>mikyas851/mmv2-${project.artifactId}:${project.version}</name>
-					</image>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>2.6.0</version>
+				<configuration>
+					<from>
+						<image>openjdk:15</image>
+					</from>
 				</configuration>
 			</plugin>
 		</plugins>
